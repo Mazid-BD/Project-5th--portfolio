@@ -1,0 +1,219 @@
+/* Small device or mobile device */
+@media (min-width:320px) and (max-width:768px){
+	.navbar-light .navbar-brand {
+	    font-size: 20px;
+	}
+	.navbar-light .navbar-nav .nav-link:before {
+	    display: none;
+	}
+	li.nav-item:last-child {
+	    margin-bottom: 0;
+	}
+
+	li.nav-item {
+	    margin-right: 20px;
+	    margin-bottom: 8px;
+	}
+	.banner-content h1 {
+   		font-size: 37px;
+	}
+	.banner:after {
+	    clip-path: polygon(100% 80%, 0% 100%, 100% 100%);
+	}
+	.banner-content p {
+    	padding: 0;
+    	font-size: 14px;
+	}
+	.banner-content a {
+	    padding: 6px 14px;
+	    font-size: 16px;
+	}
+	.my-thumb img {
+	    height: 300px;
+	}
+	.about-content h3 {
+	    font-size: 24px;
+	}
+	.about-wrap {
+       padding-top: 40px;
+    }
+	.about-content {
+	    padding-left: 6px;
+	}
+	.heading-content {
+	    padding: 0 0 100px 0;
+	}
+	.heading-content span {
+	    font-size: 16px;
+	}
+	section.work-area.p-80 {
+	    padding: 60px 0 60px 0px;
+	}
+	section#testimonial .heading-content {
+	    padding: 0 !important;
+	}
+	section#testimonial .owl-theme .owl-nav {
+	    top: 38%;
+	}
+	.item-wrap {
+	    padding-top: 60px;
+	}
+	section.cards-area.p-80 {
+	    padding: 0 0 50px 0;
+	}
+	section.work-area .heading-content {
+	    padding: 50px 0;
+	}
+	section.service {
+	    clip-path: polygon(0 1%, 100% 0, 100% 99%, 0% 100%);
+	}
+	.heading-content h2 {
+	    font-size: 22px;
+	}
+	div#work-heading h2 {
+	    font-size: 24px;
+	}
+	.heading-content h2 {
+	    font-size: 24px;
+	    padding-top: 10px;
+	}
+	.banner:after {
+	    clip-path: polygon(100% 80%, 0% 100%, 100% 100%);
+	}
+	section#testimonial {
+	    padding-bottom: 100px;
+	}
+	section#testimonial {
+	    clip-path: polygon(0 4%, 100% 0, 100% 97%, 0% 100%);
+	}
+	section#client .owl-theme .owl-nav {
+	    position: absolute;
+	    top: 35%;
+	}
+	div#card-heading h2 {
+	    font-size: 23px;
+	    padding-bottom: 50px;
+	}
+	.card-wrap.text-center {
+	    margin-bottom: 30px;
+	}
+	section.counter-area.p-80.bg-custome {
+	    clip-path: polygon(0 3%, 100% 0, 100% 97%, 0% 100%);
+	}
+	.counter-box {
+	    padding: 30px 0;
+	    margin-bottom: 20px;
+	}
+	div#card-heading {
+       padding: 40px 0 0 0;
+    }
+	.card-wrap a {
+	    padding: 7px 84px;
+	    font-size: 15px;
+	}
+	.heading-content h2 {
+	    font-size: 24px;
+	    padding-top: 10px;
+	}
+	.copyright-content p {
+	    font-size: 10px;
+	}
+	.copyright-content.text-center span:before {
+	    top: 0px;
+	}
+	.copyright-content.text-center span {
+	    font-size: 12px;
+	}
+	.copyright-content.text-center span:after {
+	    width: 83%;
+	    bottom: 0px;
+	    left: 4px;
+	}
+	form {
+	    padding: 20px;
+	}
+	div#reverse {
+    	flex-direction: column-reverse;
+	}
+	div#contact-content {
+        margin-bottom: 40px;
+	}
+	.my-thumb:before {
+	    width: 50%;
+	    border: 5px solid #E21E51;
+	    left: -12px;
+	    top: -12px;
+	}
+	    	
+}
+	
+/* Xtrlarge device or pc device */
+@media (min-width:768px) and (max-width:1200px){
+	.navbar-light .navbar-nav .nav-link:before {
+	    display: none;
+	}
+	li.nav-item:last-child {
+	    margin-bottom: 0;
+	}
+
+	li.nav-item {
+	    margin-right: 20px;
+	    margin-bottom: 8px;
+	}
+	section.service {
+	    clip-path: polygon(0 4%, 100% 0, 100% 96%, 0% 100%);
+	}
+	div#work-heading {
+	    padding: 0;
+	}
+	section#client .heading-content {
+	    padding: 30px 0;
+	}
+	section#client .owl-theme .owl-nav {
+	    top: 35%;
+	}
+	.card-wrap a {
+	    padding: 7px 105px;
+	}
+	.card-wrap.text-center {
+    	margin-top: 40px;
+	}
+	section.counter-area.p-80.bg-custome {
+    	clip-path: polygon(0 6%, 100% 0, 100% 94%, 0% 100%);
+	}
+	.counter-box {
+    	margin-top: 70px;
+	}
+	.counter-box {
+    	padding: 20px 0px;
+	}
+	section#client {
+	    padding-bottom: 100px;
+	}	
+	section.contact-area.p-80 {
+    	padding-bottom: 0;
+	}
+	form {
+    	padding: 20px;
+	}
+	.heading-content h2 {
+   		padding-top: 14px;
+	}
+	.heading-content h2 {
+    	font-size: 27px;
+	}
+	section.service .heading-content {
+    	padding-top: 40px;
+	}
+	.card-wrap a {
+    	padding: 7px 85px;
+	}
+	.about-content h3 {
+    	font-size: 29px;
+	}
+}
+
+	
+	
+	
+	
